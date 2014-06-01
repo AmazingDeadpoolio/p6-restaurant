@@ -1,6 +1,76 @@
 .logo {
 	width: 400px;
+	float: left;
+	padding-right: 0em;
+}
+
+:root {
+	background-color: none;
 }
 
 nav {
+	background-color: none;
+	width: 10em;
+	height: 500em;
+	margin-left: 20em;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: white;
+	font-size: 2em;
+	margin-bottom: 7em;
+}
+
+section {
+
+}
+
+li > img {
+	width: 12.5em;
+
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+#lb {
+	background-color: lightblue;
+}
+
+#red {
+	background-color: red;
+}
+
+#purple {
+	background-color: purple;
+}
+
+#db {
+	background-color: darkblue;
+	color: white;
+}
+
+#db > h3 {
+	color: white;
+}
+
+#green {
+	background-color: green;
+}
+
+#yellow #lb #red #purple #db #green {
+	height: 50em;
+	margin: 3em;
+	padding: 3em;
+	border: 3em solid;
+}
+
+.food {
+	width: 6.25em;
+	display: inline;
 }
